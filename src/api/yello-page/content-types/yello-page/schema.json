@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "yello_pages",
+  "info": {
+    "singularName": "yello-page",
+    "pluralName": "yello-pages",
+    "displayName": "Yello-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Preview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
